@@ -84,3 +84,13 @@ fetch(purl)
     .catch(function (error) {
         console.log(JSON.stringify(error));
     });
+
+    var map = L.map('map').setView([45.5017, -73.5673], 13);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    function showMap(lat, lng) {
+        map.setView([lat, lng], 13);
+    }
