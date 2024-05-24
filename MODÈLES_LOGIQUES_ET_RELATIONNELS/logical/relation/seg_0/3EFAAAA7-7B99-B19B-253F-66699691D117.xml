@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pai Rés FK" directorySegmentName="seg_0" id="3EFAAAA7-7B99-B19B-253F-66699691D117">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:20:17 UTC</createdTime>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<engineerTo>
+<item key="C9AFBA50-A0D7-14D2-E6E6-5F3944125678" value="true"/>
+</engineerTo>
+<sourcePk>7DC608BA-B3F5-9D32-62A8-26BA93F01AFD</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>réservation</nameOnSource>
+<nameOnTarget>paiement</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2FBE84E1-BBEB-0785-AAFB-7B1B4EFC8399</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>5B21BAA9-955E-885D-EE0D-F828622E1CBD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

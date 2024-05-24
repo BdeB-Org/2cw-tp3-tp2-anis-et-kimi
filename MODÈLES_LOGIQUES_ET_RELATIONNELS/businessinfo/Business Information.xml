@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="070ED77B-572A-0AFE-A400-5219C8540C4A">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:07:57 UTC</createdTime>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

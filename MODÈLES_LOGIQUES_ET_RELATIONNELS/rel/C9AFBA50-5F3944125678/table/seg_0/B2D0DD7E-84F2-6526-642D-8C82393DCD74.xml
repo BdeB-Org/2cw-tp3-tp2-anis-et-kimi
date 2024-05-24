@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2D0DD7E-84F2-6526-642D-8C82393DCD74" name="Des_Rés_FK">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:26:27 UTC</createdTime>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Réservations_ID_Réservation" id="2B0DE155-3B9F-E8FB-5AF2-301EE4B28039">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:26:27 UTC</createdTime>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B502375-C661-95D6-A495-91CE45CBD3E1" referredColumn="A8D09EB1-BCF5-962A-A1E1-44BD14D43021"/>
+</associations>
+</Column>
+<Column name="Réservations_Clients_ID_Client" id="2C6B94E6-A8AF-EE88-5F11-41A4C6298263">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:26:27 UTC</createdTime>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B502375-C661-95D6-A495-91CE45CBD3E1" referredColumn="6B498F3B-358F-2A56-C539-E08A47D57D0A"/>
+</associations>
+</Column>
+<Column name="Destinations_ID_Destination" id="8FC23F21-8A1A-7884-4503-4436C51279A3">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:26:27 UTC</createdTime>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BA1A219-1891-2C7F-CA10-4E81E953152D" referredColumn="AD72AF08-C990-02E2-8C42-B1920C0170E9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="70288CCE-0174-CB2E-6122-B63D4AE0F6B1" name="Destinations_Réservations_FK_PK">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:26:27 UTC</createdTime>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B0DE155-3B9F-E8FB-5AF2-301EE4B28039"/>
+<colUsage columnID="2C6B94E6-A8AF-EE88-5F11-41A4C6298263"/>
+<colUsage columnID="8FC23F21-8A1A-7884-4503-4436C51279A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01365C19-467A-163C-6A2C-A3696BCEA0E9" name="Destinations_Réservations_FK_Réservations_FK">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:26:27 UTC</createdTime>
+<generatorID>B635852F-F197-4096-568F-3CA3595E126E</generatorID>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B0DE155-3B9F-E8FB-5AF2-301EE4B28039"/>
+<colUsage columnID="2C6B94E6-A8AF-EE88-5F11-41A4C6298263"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="848AAEE8-EB44-6B74-2D54-E018CF4FB25B" name="Destinations_Réservations_FK_Destinations_FK">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:26:27 UTC</createdTime>
+<generatorID>B635852F-F197-4096-568F-3CA3595E126E</generatorID>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FC23F21-8A1A-7884-4503-4436C51279A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

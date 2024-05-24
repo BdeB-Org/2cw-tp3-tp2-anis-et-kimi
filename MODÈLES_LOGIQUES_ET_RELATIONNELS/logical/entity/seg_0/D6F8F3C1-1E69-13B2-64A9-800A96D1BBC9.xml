@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D6F8F3C1-1E69-13B2-64A9-800A96D1BBC9" name="Clients">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:10:52 UTC</createdTime>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<engineerTo>
+<item key="C9AFBA50-A0D7-14D2-E6E6-5F3944125678" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID Client" id="162996D1-6AAA-6A21-7943-20B2C829EA90">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:10:57 UTC</createdTime>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<engineerTo>
+<item key="C9AFBA50-A0D7-14D2-E6E6-5F3944125678" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nom" id="263B32B7-5DDE-2546-F377-9089F901B311">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:11:01 UTC</createdTime>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<engineerTo>
+<item key="C9AFBA50-A0D7-14D2-E6E6-5F3944125678" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prénom" id="5D88FCBA-A580-FBEE-CE3B-862291CD56B1">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:11:26 UTC</createdTime>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<engineerTo>
+<item key="C9AFBA50-A0D7-14D2-E6E6-5F3944125678" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date de naissance" id="D85110CC-0753-B12F-B37A-FBBBAFE8F08C">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:11:51 UTC</createdTime>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<engineerTo>
+<item key="C9AFBA50-A0D7-14D2-E6E6-5F3944125678" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="9380F081-15B8-2EE7-FADD-D709D95E499B">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:12:15 UTC</createdTime>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<engineerTo>
+<item key="C9AFBA50-A0D7-14D2-E6E6-5F3944125678" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0A0EFFC8-95E0-56B2-ABEC-6E2878C09C7E" name="Clients PK">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:11:05 UTC</createdTime>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C9AFBA50-A0D7-14D2-E6E6-5F3944125678" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>162996D1-6AAA-6A21-7943-20B2C829EA90</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MODÈLES_LOGIQUES_ET_RELATIONNELS" id="62C3FB99-88F2-F004-2A30-7A4BCAA66779" version="3.5">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:07:57 UTC</createdTime>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>62C3FB99-88F2-F004-2A30-7A4BCAA66779</designId>
+</OSDM_Design>

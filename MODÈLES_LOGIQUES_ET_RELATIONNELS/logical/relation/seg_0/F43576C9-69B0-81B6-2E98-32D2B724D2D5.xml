@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Rés Clients FK" directorySegmentName="seg_0" id="F43576C9-69B0-81B6-2E98-32D2B724D2D5">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:18:26 UTC</createdTime>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<engineerTo>
+<item key="C9AFBA50-A0D7-14D2-E6E6-5F3944125678" value="true"/>
+</engineerTo>
+<sourcePk>0A0EFFC8-95E0-56B2-ABEC-6E2878C09C7E</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>client</nameOnSource>
+<nameOnTarget>réservation</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D6F8F3C1-1E69-13B2-64A9-800A96D1BBC9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2FBE84E1-BBEB-0785-AAFB-7B1B4EFC8399</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

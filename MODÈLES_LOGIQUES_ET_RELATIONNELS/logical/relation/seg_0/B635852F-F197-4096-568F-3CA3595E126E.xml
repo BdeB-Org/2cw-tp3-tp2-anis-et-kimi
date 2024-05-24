@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Des Rés FK" directorySegmentName="seg_0" id="B635852F-F197-4096-568F-3CA3595E126E">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:19:45 UTC</createdTime>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<engineerTo>
+<item key="C9AFBA50-A0D7-14D2-E6E6-5F3944125678" value="true"/>
+</engineerTo>
+<sourcePk>7DC608BA-B3F5-9D32-62A8-26BA93F01AFD</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>réservation</nameOnSource>
+<nameOnTarget>destination</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>2FBE84E1-BBEB-0785-AAFB-7B1B4EFC8399</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8ED0F829-3F66-F1CA-B39C-62DCCF4B6EFE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

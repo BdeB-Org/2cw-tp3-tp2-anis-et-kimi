@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2FBE84E1-BBEB-0785-AAFB-7B1B4EFC8399" name="Réservations">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:13:03 UTC</createdTime>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<engineerTo>
+<item key="C9AFBA50-A0D7-14D2-E6E6-5F3944125678" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID Réservation" id="85F39732-F97E-514E-7F02-A61379DBCA89">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:13:10 UTC</createdTime>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<engineerTo>
+<item key="C9AFBA50-A0D7-14D2-E6E6-5F3944125678" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Destination" id="473CBB74-5C40-011B-D4FE-F35339C6031E">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:29:08 UTC</createdTime>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<engineerTo>
+<item key="C9AFBA50-A0D7-14D2-E6E6-5F3944125678" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date de réservation" id="2D4A90FB-A807-8E2F-5460-8C733EEBD500">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:13:18 UTC</createdTime>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<engineerTo>
+<item key="C9AFBA50-A0D7-14D2-E6E6-5F3944125678" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date de départ" id="814BA5E9-BD7D-EB67-A68E-71358EDAC989">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:14:19 UTC</createdTime>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<engineerTo>
+<item key="C9AFBA50-A0D7-14D2-E6E6-5F3944125678" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date de retour" id="036FDEF1-99AE-76C5-F44D-F72362480147">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:14:39 UTC</createdTime>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<engineerTo>
+<item key="C9AFBA50-A0D7-14D2-E6E6-5F3944125678" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clients ID Client" id="9D761A5B-8D92-24A3-B402-47043E8BA55A">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:18:26 UTC</createdTime>
+<generatorID>F43576C9-69B0-81B6-2E98-32D2B724D2D5</generatorID>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<engineerTo>
+<item key="C9AFBA50-A0D7-14D2-E6E6-5F3944125678" value="true"/>
+</engineerTo>
+<referedAttribute>162996D1-6AAA-6A21-7943-20B2C829EA90</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7DC608BA-B3F5-9D32-62A8-26BA93F01AFD" name="Réservations PK">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:13:17 UTC</createdTime>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C9AFBA50-A0D7-14D2-E6E6-5F3944125678" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>85F39732-F97E-514E-7F02-A61379DBCA89</attributeRef>
+<attributeRef>9D761A5B-8D92-24A3-B402-47043E8BA55A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

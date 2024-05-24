@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F8F136E-A154-A05A-FAF5-7DDF05E80D49" name="Paiements">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:20:45 UTC</createdTime>
+<generatorID>5B21BAA9-955E-885D-EE0D-F828622E1CBD</generatorID>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Paiement" id="E20077AA-BC95-E637-3F77-E0293B11C8F1">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:20:45 UTC</createdTime>
+<generatorID>E2A15432-3772-975A-E810-315C0074ACC6</generatorID>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date_de_paiement" id="2A6587B9-EE69-AEE6-FA40-1B1CDF929745">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:20:45 UTC</createdTime>
+<generatorID>76012FD8-B87F-7725-7C26-EFEE824B2645</generatorID>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Montant" id="A7D4ED8D-F309-A112-613E-C24E438C4AC2">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:20:45 UTC</createdTime>
+<generatorID>C681D755-ADB9-C514-4CD5-8F94E2E4A138</generatorID>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Réservations_ID_Réservation" id="B243D01E-8130-7C4C-C6D1-E1C26421ED00">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:20:45 UTC</createdTime>
+<generatorID>AA3A5A40-508F-6E7A-5143-029AB025AAEA</generatorID>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B38F375-8780-13B2-85F8-E2D47354C675" referredColumn="A8D09EB1-BCF5-962A-A1E1-44BD14D43021"/>
+</associations>
+</Column>
+<Column name="Réservations_Clients_ID_Client" id="DCA97D3A-4E5D-4B8D-BF14-EB21987E7DFB">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:20:45 UTC</createdTime>
+<generatorID>C52D2100-A49C-8955-E223-0C972B7B2C5D</generatorID>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B38F375-8780-13B2-85F8-E2D47354C675" referredColumn="6B498F3B-358F-2A56-C539-E08A47D57D0A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="62DA712C-87C8-76D3-3439-1A97C903BF56" name="Paiements_PK">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:20:45 UTC</createdTime>
+<generatorID>62E7ACBF-5F65-4191-133E-751CA0486603</generatorID>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E20077AA-BC95-E637-3F77-E0293B11C8F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="140287FD-8DD9-D65A-9E31-253D2E6ECA44" name="Paiements__IDX">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:20:45 UTC</createdTime>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>3EFAAAA7-7B99-B19B-253F-66699691D117</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B243D01E-8130-7C4C-C6D1-E1C26421ED00"/>
+<colUsage columnID="DCA97D3A-4E5D-4B8D-BF14-EB21987E7DFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="393300D5-DFC8-2F7F-0D92-62983AF2B91C" name="Paiements_Réservations_FK">
+<createdBy>Anis Hani Hamiteche</createdBy>
+<createdTime>2024-05-17 18:20:45 UTC</createdTime>
+<generatorID>3EFAAAA7-7B99-B19B-253F-66699691D117</generatorID>
+<ownerDesignName>MODÈLES_LOGIQUES_ET_RELATIONNELS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B243D01E-8130-7C4C-C6D1-E1C26421ED00"/>
+<colUsage columnID="DCA97D3A-4E5D-4B8D-BF14-EB21987E7DFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
