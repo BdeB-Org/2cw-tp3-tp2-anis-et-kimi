@@ -4,41 +4,45 @@
   <title>Simple Map</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
   <link href="style.css" rel="stylesheet">
+  <link href="extra.jss" rel="stylesheet">
 
 </head>
 <body>
   <div id="bannière">
     <div class="navig">
         <ul>
-            <li><a href="contacter.html">Contactez-nous</a></li>
+            <li><a href="map.html">Carte</a></li>
             <li><a href="reserver.html">Historique</a></li>
             <li><a href="destinations.html">Destinations</a></li>
-            <li><a href="map.html">Map</a></li>
             <li><a href="index.html">Accueil</a></li>
         </ul>
+        <h1 id="titre">Voyez où vous allez.</h1>
     </div>
-
-    <div class="dropdown">
-      <button>Votre destination</button>
-      <div class="dropdown-content">        
-        <a href="#" onclick="showMap(45.5017, -73.5673)">Montréal, Canada</a>
-        <a href="#" onclick="showMap(48.8566, 2.3522)">Paris, France</a>
-        <a href="#" onclick="showMap(35.6895, 139.6917)">Tokyo Japon</a>
-        <a href="#" onclick="showMap(41.0082, 28.9784)">Istanbul, Turquie</a>
-        <a href="#" onclick="showMap(36.7372, 3.0865)">Alger, Algérie</a>
-        <a href="#" onclick="showMap(55.7558, 37.6173)">Moscou, Russie</a>
-        <a href="#" onclick="showMap(-33.8688, 151.2093)">Sydney, Australie</a>
-        <a href="#" onclick="showMap(36.8065, 10.1815)">Tunis, Tunisie</a>
-        <a href="#" onclick="showMap(40.7128, -74.0060)">New York, États-Unis</a>
-        <a href="#" onclick="showMap(40.4168, -3.7038)">Madrid, Espagne</a>
-        <a href="#" onclick="showMap(45.4408, 12.3155)">Venise, Italie</a>
-        <a href="#" onclick="showMap(44.1733, 28.6383)">Constanta, Roumanie</a>
-      </div>
   </div>
 
-  <h1>Ces lieux sont à votre disposition</h1>
-    <div id="map"></div>
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-    <script src="extra.js"></script>
+    <div id="explorer2">
+      <h1 id="titre2">Évadez-vous.</h1>
+      <div id="map"></div>
+      <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+      <script src="extra.js"></script>
+
+      <div class="dropdown">
+        <button class="carteBtn">Nos destinations</button>
+        <div class="dropdown-content">        
+          <a class="mDestination" onclick="showMap(45.5017, -73.5673)">Montréal, Canada</a>
+          <a class="mDestination" onclick="showMap(48.8566, 2.3522)">Paris, France</a>
+          <a class="mDestination" onclick="showMap(35.6895, 139.6917)">Tokyo, Japon</a>
+          <a class="mDestination" onclick="showMap(41.0082, 28.9784)">Istanbul, Turquie</a>
+          <a class="mDestination" onclick="showMap(36.7372, 3.0865)">Alger, Algérie</a>
+          <a class="mDestination" onclick="showMap(55.7558, 37.6173)">Moscou, Russie</a>
+          <a class="mDestination" onclick="showMap(-33.8688, 151.2093)">Sydney, Australie</a>
+          <a class="mDestination" onclick="showMap(36.8065, 10.1815)">Tunis, Tunisie</a>
+          <a class="mDestination" onclick="showMap(40.7128, -74.0060)">New York, É.U.</a>
+          <a class="mDestination" onclick="showMap(40.4168, -3.7038)">Madrid, Espagne</a>
+          <a class="mDestination" onclick="showMap(45.4408, 12.3155)">Venise, Italie</a>
+          <a class="mDestination" onclick="showMap(44.1733, 28.6383)">Constanta, Roumanie</a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

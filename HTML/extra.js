@@ -85,6 +85,7 @@ fetch(purl)
         console.log(JSON.stringify(error));
     });
 
+    //Affichage de la map sur la page map.html
     var map = L.map('map').setView([45.5017, -73.5673], 13);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
