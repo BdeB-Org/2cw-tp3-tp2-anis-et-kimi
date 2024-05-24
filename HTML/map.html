@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Simple Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+  <div id="bannière">
+    <div class="navig">
+        <ul>
+            <li><a href="contacter.html">Contactez-nous</a></li>
+            <li><a href="reserver.html">Historique</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="index.html">Accueil</a></li>
+        </ul>
+    </div>
+
+    <div class="dropdown">
+      <button>Votre destination</button>
+      <div class="dropdown-content">
+        <a href="#" onclick="showMap(51.505, -0.09)">Montréal, Canada</a>
+        <a href="#" onclick="showMap(48.8566, 2.3522)">Paris, France</a>
+        <a href="#" onclick="showMap(40.7128, -74.0060)">Tokyo Japon</a>
+        <a href="#" onclick="showMap(51.505, -0.09)">Istanbul, Turquie</a>
+        <a href="#" onclick="showMap(48.8566, 2.3522)">Alger, Algérie</a>
+        <a href="#" onclick="showMap(40.7128, -74.0060)">Moscou, Russie</a>
+        <a href="#" onclick="showMap(51.505, -0.09)">Montréal, Canada</a>
+        <a href="#" onclick="showMap(48.8566, 2.3522)">Paris, France</a>
+        <a href="#" onclick="showMap(40.7128, -74.0060)">Tokyo Japon</a>
+        <a href="#" onclick="showMap(51.505, -0.09)">Montréal, Canada</a>
+        <a href="#" onclick="showMap(48.8566, 2.3522)">Paris, France</a>
+        <a href="#" onclick="showMap(40.7128, -74.0060)">Tokyo Japon</a>
+      </div>
+  </div>
+  
+
+    <h1>My OpenStreetMap</h1>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="extra.js"></script>
+  </body>
+</html>
