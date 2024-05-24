@@ -13,13 +13,14 @@
             <li><a href="contacter.html">Contactez-nous</a></li>
             <li><a href="reserver.html">Historique</a></li>
             <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="map.html">Map</a></li>
             <li><a href="index.html">Accueil</a></li>
         </ul>
     </div>
 
     <div class="dropdown">
       <button>Votre destination</button>
-      <div class="choix-map">        
+      <div class="dropdown-content">        
         <a href="#" onclick="showMap(45.5017, -73.5673)">Montréal, Canada</a>
         <a href="#" onclick="showMap(48.8566, 2.3522)">Paris, France</a>
         <a href="#" onclick="showMap(35.6895, 139.6917)">Tokyo Japon</a>
@@ -35,8 +36,7 @@
       </div>
   </div>
 
-
-    <h1>My OpenStreetMap</h1>
+  <h1>Ces lieux sont à votre disposition</h1>
     <div id="map"></div>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src="extra.js"></script>
